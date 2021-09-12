@@ -15,7 +15,9 @@ public class CommonActions {
         WebDriver driver = null;
         switch (BROWSER_AND_PLATFORM){
             case "CHROME_WINDOWS":
-                System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Downloads\\WDM\\chromedriver.exe");
+//                System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Downloads\\WDM\\chromedriver.exe");
+//                System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\IdeaProjects\\UDEMY_PROJECT_NEW\\src\\main\\resources\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\Downloads\\Новая папка\\chromedriver.exe");
                 driver = new ChromeDriver();
                 break;
             default:

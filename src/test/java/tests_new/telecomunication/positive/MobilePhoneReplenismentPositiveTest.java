@@ -17,7 +17,7 @@ public class MobilePhoneReplenismentPositiveTest extends BaseTest {
     @Test
     public void checkToAuth(){
         basePage.goToUrl(Mobile_PAIMENT_URL);
-        mobilePhoneReplenismentPage.selectCardFromWallet();
+         mobilePhoneReplenismentPage.selectCardFromWallet();
         basePage.isAutWidgetPresent();
 
     }
